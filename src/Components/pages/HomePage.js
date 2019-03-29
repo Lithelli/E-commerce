@@ -16,7 +16,7 @@ class Home extends Component {
           <CartContainer />
           <HPI/>
           </header>
-          <ProductsContainer/>
+          <ProductsContainer className="PCardC"/>
           <Footer />
         </div>
       );

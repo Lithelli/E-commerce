@@ -177,9 +177,9 @@ justify-content: center;
   width:45%;
   background-size:cover;
   height:300px;
+
   border:1px black solid;
-  background-image: url(./assets/p1.jpg);
-  color:white;
+  color:#393638;
   background-position:center;
 }
 .PCardC{
@@ -250,8 +250,7 @@ justify-content: center;
     background-size:cover;
     height:50vh;
     border:1px black solid;
-    background-image: url(./assets/p1.jpg);
-    color:white;
+    color:#393638;
     background-position:center;
   }
   .PCardC{
@@ -285,8 +284,7 @@ justify-content: center;
     background-size:cover;
     height:50vh;
     border:1px black solid;
-    background-image: url(./assets/p1.jpg);
-    color:white;
+    color:#393638;
   }
   .PCardC{
     display: flex;
@@ -326,8 +324,7 @@ justify-content: center;
     background-size:cover;
     height:50vh;
     border:1px black solid;
-    background-image: url(./assets/p1.jpg);
-    color:white;
+    color:#393638;
     background-position:center;
   }
   .PCardC{
