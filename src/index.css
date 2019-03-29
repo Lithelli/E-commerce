@@ -12,3 +12,334 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.App {
+  text-align: center;
+}
+.short-text{
+  display: none;
+}
+.Header{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-self: center;
+  width: 100%;
+  height: 2.3em;
+  font-size:18px;
+  font-weight: bold;
+  color:#393638;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  position:sticky;
+  top:0;
+  background-color: whitesmoke;
+}
+.Title{
+  display: flex;
+  flex-grow: 5;
+  order:2;
+  height:2.3em;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid black;
+}
+.Search{
+  display:flex;
+  flex-grow:1;
+  order:3;
+  justify-content: center;
+}
+.Menu{
+  display:flex;
+  flex-grow:2;
+  order:1;
+  justify-content: center;
+}
+.Bag{
+  display:flex;
+  flex-grow:1;
+  order:4;
+  justify-content: center;
+  background-color: whitesmoke;
+  height:2.3em;
+  border: 1px solid black;
+  align-items: center;
+}
+.Footer{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-self: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 4em;
+  font-size:18px;
+  font-weight: bold;
+  color:#393638;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color:whitesmoke
+}
+.Content{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-self: center;
+  width: 100%;
+  height: 2.3em;
+  font-size:18px;
+  font-weight: bold;
+  color:#393638;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.Social {
+  display:flex;
+  flex-grow:1;
+  order:1;
+  justify-content: center;
+}
+.Contact {
+display:flex;
+flex-grow:1;
+order:1;
+justify-content: center;
+height: 2.3em;
+align-items: center;
+border: 1px solid black;
+}
+.Subscribe {
+display:flex;
+flex-grow:1;
+order:1;
+justify-content: center;
+}
+.Legal{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-self: center;
+  width: 100%;
+  height: 1.7em;
+  font-size:18px;
+  font-weight: bold;
+  color:#393638;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.Terms{
+  display:flex;
+  flex-grow:1;
+  order:1;
+  font-size: 13px;
+  justify-content: flex-start;
+  padding-left:2%;
+}
+.CopyRight{
+  display:flex;
+  flex-grow:1;
+  order:1;
+  font-size:13px;
+  justify-content: flex-end;
+  padding-right:2%
+}
+.HPI {
+  height: 625px;
+  background-image: cover;
+  border:1px solid black;
+  image-rendering: crisp-edges;
+  width:100%;
+  margin: 1px 0px;
+  background-image: url(./assets/glasses1.jpg);
+  background-repeat:none;
+  background-size: cover;
+
+}
+.HPIC {
+  display:flex;
+  flex-direction: row;
+}
+.HPIT {
+  font-size: 40px; 
+  display: flex;
+  margin-right: 20px;
+  justify-content: flex-end;
+  color:whitesmoke;
+}
+.PCard{
+  display: flex;
+  flex-direction:row-wrap;
+  width:45%;
+  background-size:cover;
+  height:300px;
+  border:1px black solid;
+  background-image: url(./assets/p1.jpg);
+  color:white;
+  background-position:center;
+}
+.PCardC{
+  display: flex;
+  flex-direction: row-wrap;
+}
+.purchase-card {
+  width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1em;
+}
+
+.purchase-card > .show-grid {
+  padding-bottom: 1.5em;
+}
+
+.item-details-button:focus {
+  outline: none;
+}
+
+.promo-code-button:focus {
+  outline: none;
+}
+
+.btn-round {
+  border-radius: 17px;
+}
+
+.price-strike {
+  text-decoration-line: line-through;
+  color: grey;
+}
+.BagContainer{
+  top: 3em;
+  right:0;
+  position: fixed;
+  background-color: whitesmoke;
+}
+/* Medium Desktops */
+@media only screen and (max-width: 1024px){
+  .long-text{
+    display:none;
+  }
+  .short-text{
+    display:inline-block;
+  }
+  .HPI{
+      height: 625px;
+      background-image: cover;
+      border:1px solid black;
+      image-rendering: crisp-edges;
+      width:100%;
+      margin: 1px 0px;
+      background-image: url(./assets/glasses1.jpg);
+      background-repeat:none;
+      background-size: cover;
+      background-position:center;
+  }
+  .HPIC {
+    display:flex;
+    flex-direction: row;
+  }
+  .PCard{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    width:50%;
+    background-size:cover;
+    height:50vh;
+    border:1px black solid;
+    background-image: url(./assets/p1.jpg);
+    color:white;
+    background-position:center;
+  }
+  .PCardC{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+/* Most Pad Devices */
+@media only screen and (max-width: 600px){
+  .HPI{
+      height: 625px;
+      background-image: cover;
+      border:1px solid black;
+      image-rendering: crisp-edges;
+      width:100%;
+      margin: 1px 0px;
+      background-image: url(./assets/glasses1.jpg);
+      background-repeat:none;
+      background-size: cover;
+      background-position:center;
+  }
+  .HPIC {
+    display:flex;
+    flex-direction: column;
+  }
+  .PCard{
+    display: flex;
+    flex-direction:row;
+    width:50%;
+    background-size:cover;
+    height:50vh;
+    border:1px black solid;
+    background-image: url(./assets/p1.jpg);
+    color:white;
+  }
+  .PCardC{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .Terms{
+    font-size:10px;
+  }
+  .CopyRight{
+    font-size: 10px;
+  }
+}
+
+/* Most Mobile devices */
+@media only screen and (max-width: 420px){
+  .HPI{
+      height: 625px;
+      background-image: cover;
+      border:1px solid black;
+      image-rendering: crisp-edges;
+      width:100%;
+      margin: 1px 0px;
+      background-image: url(./assets/glasses1.jpg);
+      background-repeat:none;
+      background-size: cover;
+      background-position:center;
+  }
+  .HPIC {
+    display:flex;
+    flex-direction: column;
+  }
+  .PCard{
+    display: flex;
+    flex-direction:row;
+    width:100%;
+    background-size:cover;
+    height:50vh;
+    border:1px black solid;
+    background-image: url(./assets/p1.jpg);
+    color:white;
+    background-position:center;
+  }
+  .PCardC{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .Terms{
+    font-size:8px;
+  }
+  .CopyRight{
+    font-size: 8px;
+  }
+}
+
