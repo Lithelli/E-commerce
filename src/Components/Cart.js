@@ -4,8 +4,6 @@ import Product from './Product'
 
 const Cart  = ({ products, total, onCheckoutClicked }) => {
   const hasProducts = products.length > 0;
-  let totalP = 0;
-  products.map(p => {totalP = totalP+p.inventory})
   const nodes = hasProducts ? (
     products.map(product =>
         <Product
@@ -22,7 +20,6 @@ const Cart  = ({ products, total, onCheckoutClicked }) => {
   return (
     <div className="BagCheckout">
       <h3>Your Cart</h3>
-      <p>quantity {totalP}</p>
       <div>{nodes}</div>
       <p className="Total">Total: &#36;{total}</p>
       <button onClick={onCheckoutClicked}
