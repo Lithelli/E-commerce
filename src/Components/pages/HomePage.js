@@ -3,7 +3,6 @@ import Header from '../Header';
 import HPI from '../HPI'
 import Footer from '../Footer';
 import ProductsContainer from '../../containers/ProductsContainer';
-import CartContainer from '../../containers/CartContainer';
 
 
 
@@ -13,7 +12,6 @@ class Home extends Component {
         <div className="App">
           <header className="App-header">
           <Header/>
-          <CartContainer />
           <HPI/>
           <ProductsContainer className="PCardC"/>
           </header>
@@ -22,5 +20,5 @@ class Home extends Component {
       );
     }
   }
-  
+
    export default Home;

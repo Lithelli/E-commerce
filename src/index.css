@@ -71,9 +71,9 @@ code {
   display: flex;
     flex-direction: column;
     width: 23.5%;
-    left: 0;
+    right: 0;
+    top: 40px;
     position: fixed;
-    margin-left: 76.5%;
     justify-content: flex-start;
     border: 1px solid #393638;
     z-index: 2;
@@ -200,7 +200,7 @@ justify-content: center;
   flex-direction: row;
 }
 .HPIT {
-  font-size: 40px; 
+  font-size: 40px;
   display: flex;
   margin-right: 20px;
   justify-content: flex-end;
@@ -208,11 +208,11 @@ justify-content: center;
 }
 .PCard{
   display: flex;
-  flex-direction:row-wrap;
+  flex-direction: column;
+  justify-content: flex-start;
   width:45%;
   background-size:cover;
   height:300px;
-
   border:1px #393638 solid;
   color:#393638;
   background-position:center;
@@ -248,7 +248,6 @@ justify-content: center;
   }
   .PCard{
     display: flex;
-    flex-direction:row;
     flex-wrap:wrap;
     width:50%;
     background-size:cover;
@@ -282,10 +281,7 @@ justify-content: center;
     flex-direction: column;
   }
   .PCard{
-    display: flex;
-    flex-direction:row;
     width:50%;
-    background-size:cover;
     height:50vh;
     border:1px #393638 solid;
     color:#393638;
@@ -322,8 +318,6 @@ justify-content: center;
     flex-direction: column;
   }
   .PCard{
-    display: flex;
-    flex-direction:row;
     width:100%;
     background-size:cover;
     height:50vh;
@@ -343,4 +337,3 @@ justify-content: center;
     font-size: 8px;
   }
 }
-
