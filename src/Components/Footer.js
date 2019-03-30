@@ -15,7 +15,6 @@ export default class Footer extends Component {
                 Subscribe
             </div>
         </div>
-
         <div className="Legal">
             <div className="Terms">
                 Terms Of Service

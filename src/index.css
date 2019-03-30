@@ -29,8 +29,8 @@ code {
   font-size:18px;
   font-weight: bold;
   color:#393638;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 1px solid #393638;
+  border-bottom: 1px solid #393638;
   position:sticky;
   top:0;
   background-color: whitesmoke;
@@ -43,7 +43,7 @@ code {
   align-items: center;
   justify-content: center;
   text-align: center;
-  border: 1px solid black;
+  border: 1px solid #393638;
 }
 .Search{
   display:flex;
@@ -64,8 +64,43 @@ code {
   justify-content: center;
   background-color: whitesmoke;
   height:2.3em;
-  border: 1px solid black;
+  border: 1px solid #393638;
   align-items: center;
+}
+.BagCheckout{
+  display: flex;
+    flex-direction: column;
+    width: 23.5%;
+    left: 0;
+    position: fixed;
+    margin-left: 76.5%;
+    justify-content: flex-start;
+    border: 1px solid #393638;
+    z-index: 2;
+    background: whitesmoke;
+    margin-top: 1px;
+}
+.CheckoutButton{
+  background-color: #393638;
+    color: whitesmoke;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    align-self: center;
+    border: 1px solid #393638;
+}
+.Total{
+    color: #393638;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    align-self: center;
+    border: 1px solid #393638;
+    margin-bottom: 0px;
 }
 .Footer{
   align-items: center;
@@ -79,8 +114,8 @@ code {
   font-size:18px;
   font-weight: bold;
   color:#393638;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 1px solid #393638;
+  border-bottom: 1px solid #393638;
   background-color:whitesmoke
 }
 .Content{
@@ -94,8 +129,8 @@ code {
   font-size:18px;
   font-weight: bold;
   color:#393638;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 1px solid #393638;
+  border-bottom: 1px solid #393638;
 }
 .Social {
   display:flex;
@@ -110,7 +145,7 @@ order:1;
 justify-content: center;
 height: 2.3em;
 align-items: center;
-border: 1px solid black;
+border: 1px solid #393638;
 }
 .Subscribe {
 display:flex;
@@ -129,8 +164,8 @@ justify-content: center;
   font-size:18px;
   font-weight: bold;
   color:#393638;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 1px solid #393638;
+  border-bottom: 1px solid #393638;
 }
 .Terms{
   display:flex;
@@ -151,7 +186,7 @@ justify-content: center;
 .HPI {
   height: 625px;
   background-image: cover;
-  border:1px solid black;
+  border:1px solid #393638;
   image-rendering: crisp-edges;
   width:100%;
   margin: 1px 0px;
@@ -178,7 +213,7 @@ justify-content: center;
   background-size:cover;
   height:300px;
 
-  border:1px black solid;
+  border:1px #393638 solid;
   color:#393638;
   background-position:center;
 }
@@ -186,38 +221,7 @@ justify-content: center;
   display: flex;
   flex-direction: row-wrap;
 }
-.purchase-card {
-  width: 350px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 1em;
-}
 
-.purchase-card > .show-grid {
-  padding-bottom: 1.5em;
-}
-
-.item-details-button:focus {
-  outline: none;
-}
-
-.promo-code-button:focus {
-  outline: none;
-}
-
-.btn-round {
-  border-radius: 17px;
-}
-
-.price-strike {
-  text-decoration-line: line-through;
-  color: grey;
-}
-.BagContainer{
-  top: 3em;
-  right:0;
-  position: fixed;
-  background-color: whitesmoke;
-}
 /* Medium Desktops */
 @media only screen and (max-width: 1024px){
   .long-text{
@@ -229,7 +233,7 @@ justify-content: center;
   .HPI{
       height: 625px;
       background-image: cover;
-      border:1px solid black;
+      border:1px solid #393638;
       image-rendering: crisp-edges;
       width:100%;
       margin: 1px 0px;
@@ -249,7 +253,7 @@ justify-content: center;
     width:50%;
     background-size:cover;
     height:50vh;
-    border:1px black solid;
+    border:1px #393638 solid;
     color:#393638;
     background-position:center;
   }
@@ -264,7 +268,7 @@ justify-content: center;
   .HPI{
       height: 625px;
       background-image: cover;
-      border:1px solid black;
+      border:1px solid #393638;
       image-rendering: crisp-edges;
       width:100%;
       margin: 1px 0px;
@@ -283,7 +287,7 @@ justify-content: center;
     width:50%;
     background-size:cover;
     height:50vh;
-    border:1px black solid;
+    border:1px #393638 solid;
     color:#393638;
   }
   .PCardC{
@@ -304,7 +308,7 @@ justify-content: center;
   .HPI{
       height: 625px;
       background-image: cover;
-      border:1px solid black;
+      border:1px solid #393638;
       image-rendering: crisp-edges;
       width:100%;
       margin: 1px 0px;
@@ -323,7 +327,7 @@ justify-content: center;
     width:100%;
     background-size:cover;
     height:50vh;
-    border:1px black solid;
+    border:1px #393638 solid;
     color:#393638;
     background-position:center;
   }
