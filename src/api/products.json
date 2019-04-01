@@ -1,7 +1,10 @@
 [
-  {"id": 1, "title": "iPad 4 Mini", "price": 500.01, "inventory": 2, "img": "cycling1"},
-  {"id": 2, "title": "H&M T-Shirt White", "price": 10.99, "inventory": 10, "img": "SL"},
-  {"id": 3, "title": "Charli XCX - Sucker CD", "price": 19.99, "inventory": 5, "img": "SL1"},
-  {"id": 4, "title": "josh", "price": 10.00, "inventory": 9, "img": "SL2"},
-  {"id": 5, "title": "Charli XCX - Sucker CD", "price": 19.99, "inventory": 5, "img": "p2"}
+  {"id": 1, "title": "Staei", "price": 500.00, "inventory": 2, "img": "RSF5"},
+  {"id": 2, "title": "Yresa", "price": 102.00, "inventory": 10, "img": "SL"},
+  {"id": 3, "title": "Porea", "price": 160.00, "inventory": 5, "img": "SL1"},
+  {"id": 4, "title": "Esta", "price": 102.00, "inventory": 9, "img": "SL2"},
+  {"id": 6, "title": "Yerax", "price": 180.00, "inventory": 23, "img": "RSF2"},
+  {"id": 7, "title": "Mioka", "price": 190.00, "inventory": 45, "img": "RSF6"},
+  {"id": 8, "title": "Poral", "price": 192.00, "inventory": 92, "img": "RSF3"},
+  {"id": 9, "title": "Turay", "price": 250.00, "inventory": 23, "img": "RSF1"}
 ]

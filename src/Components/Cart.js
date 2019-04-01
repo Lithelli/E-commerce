@@ -3,6 +3,8 @@ import PropTypes from 'prop-types'
 import Product from './Product'
 
 const Cart  = ({ products, total, onCheckoutClicked }) => {
+  let totalP = 0;
+  products.map(p => {totalP = totalP+p.quantity})
   const hasProducts = products.length > 0;
   const nodes = hasProducts ? (
     products.map(product =>
@@ -14,12 +16,13 @@ const Cart  = ({ products, total, onCheckoutClicked }) => {
         />
     )
   ) : (
-    <em>Please add some products to cart.</em>
+    <em>Add some merch to the bag.</em>
   )
 
   return (
     <div className="BagCheckout">
-      <h3>Your Cart</h3>
+      <h3>Your Bag</h3>
+      <p>Quanity: {totalP}</p>
       <div>{nodes}</div>
       <p className="Total">Total: &#36;{total}</p>
       <button onClick={onCheckoutClicked}

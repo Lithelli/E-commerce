@@ -45,17 +45,35 @@ code {
   text-align: center;
   border: 1px solid #393638;
 }
+.Title:hover{
+  cursor: pointer;
+  background-color: gainsboro;
+}
 .Search{
   display:flex;
   flex-grow:1;
   order:3;
+  height:2.3em;
+  align-items: center;
+  border: 1px solid #393638;
   justify-content: center;
+}
+.Search:hover{
+  cursor: pointer;
+  background-color: gainsboro;
 }
 .Menu{
   display:flex;
   flex-grow:2;
   order:1;
   justify-content: center;
+  height:2.3em;
+  align-items: center;
+  border: 1px solid #393638;
+}
+.Menu:hover{
+  cursor: pointer;
+  background-color: gainsboro;
 }
 .Bag{
   display:flex;
@@ -67,8 +85,12 @@ code {
   border: 1px solid #393638;
   align-items: center;
 }
+.Bag:hover{
+  cursor: pointer;
+  background-color: gainsboro;
+}
 .BagCheckout{
-  display: flex;
+    display: flex;
     flex-direction: column;
     width: 23.5%;
     right: 0;
@@ -81,7 +103,7 @@ code {
     margin-top: 1px;
 }
 .CheckoutButton{
-  background-color: #393638;
+    background-color: #393638;
     color: whitesmoke;
     width: 100%;
     display: flex;
@@ -99,7 +121,8 @@ code {
     align-items: center;
     flex-direction: row;
     align-self: center;
-    border: 1px solid #393638;
+    border-top: 1px solid #393638;
+    border-bottom: 1px solid #393638;
     margin-bottom: 0px;
 }
 .Footer{
@@ -137,21 +160,100 @@ code {
   flex-grow:1;
   order:1;
   justify-content: center;
+  height:2.3em;
+  position: relative;
+  align-items: center;
+  border: 1px solid #393638;
+}
+.Social:hover{
+  cursor: pointer;
+  background-color: gainsboro;
+}
+.Social p {
+  height:100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.SocialInfo{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  bottom: 44px;
+  position: absolute;
+  justify-content: space-around;
+  border: 1px solid #393638;
+  padding: 8 0;
+  z-index: 2;
+  background: whitesmoke;
 }
 .Contact {
-display:flex;
-flex-grow:1;
-order:1;
-justify-content: center;
-height: 2.3em;
-align-items: center;
-border: 1px solid #393638;
+  display:flex;
+  flex-grow:1;
+  order:1;
+  justify-content: center;
+  height: 2.3em;
+  position: relative;
+  align-items: center;
+  border: 1px solid #393638;
+}
+.Contact:hover{
+  cursor: pointer;
+  background-color: gainsboro;
+}
+.Contact p {
+  height:100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  }
+.ContactInfo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  bottom: 44px;
+  position: absolute;
+  justify-content: flex-start;
+  border: 1px solid #393638;
+  z-index: 2;
+  background: whitesmoke;
 }
 .Subscribe {
 display:flex;
 flex-grow:1;
 order:1;
 justify-content: center;
+height:2.3em;
+align-items: center;
+position: relative;
+border: 1px solid #393638;
+}
+.Subscribe p {
+height:100%;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0;
+}
+.Subscribe:hover{
+  cursor: pointer;
+  background-color: gainsboro;
+}
+.SubscribeInput{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  bottom: 44px;
+  position: absolute;
+  justify-content: flex-start;
+  border: 1px solid #393638;
+  z-index: 2;
+  background: whitesmoke;
 }
 .Legal{
   align-items: center;
@@ -195,6 +297,18 @@ justify-content: center;
   background-size: cover;
 
 }
+.HPI1 {
+  height: 625px;
+  background-image: cover;
+  border:1px solid #393638;
+  image-rendering: crisp-edges;
+  width:100%;
+  margin: 1px 0px;
+  background-image: url(./assets/glasses2.jpg);
+  background-repeat:none;
+  background-size: cover;
+
+}
 .HPIC {
   display:flex;
   flex-direction: row;
@@ -210,7 +324,7 @@ justify-content: center;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width:45%;
+  width:25%;
   background-size:cover;
   height:300px;
   border:1px #393638 solid;
@@ -219,7 +333,8 @@ justify-content: center;
 }
 .PCardC{
   display: flex;
-  flex-direction: row-wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 /* Medium Desktops */

@@ -8,7 +8,7 @@ export default class HPI extends Component {
             <div className="HPI">
                 <h2 className="HPIT">New Products</h2>
             </div>
-            <div className="HPI">
+            <div className="HPI1">
                 <h2 className="HPIT">Designer Collection</h2>
             </div>
         </div>
