@@ -222,6 +222,10 @@ code {
   z-index: 2;
   background: whitesmoke;
 }
+.ContactInfo h6{
+  font-size: 2vw;
+
+}
 .Subscribe {
 display:flex;
 flex-grow:1;
@@ -345,6 +349,9 @@ margin: 0;
   .short-text{
     display:inline-block;
   }
+  .Search{
+    display: none;
+  }
   .HPI{
       height: 625px;
       background-image: cover;
@@ -390,6 +397,22 @@ margin: 0;
       background-repeat:none;
       background-size: cover;
       background-position:center;
+  }
+  .ContactInfo h6 {
+    font-size: 3vw
+  }
+  .ContactInfo{
+    width: 200%;
+  }
+  .SubscribeInput{
+    width: 200%;
+  }
+  .BagCheckout{
+    width:75%;
+  }
+  .SocialInfo{
+    margin-left: 30px;
+    width:150%;
   }
   .HPIC {
     display:flex;
