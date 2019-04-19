@@ -66,6 +66,7 @@ code {
   display:flex;
   flex-grow:2;
   order:1;
+  position: relative;
   justify-content: center;
   height:2.3em;
   align-items: center;
@@ -74,6 +75,26 @@ code {
 .Menu:hover{
   cursor: pointer;
   background-color: gainsboro;
+}
+.DropMenu{
+  display: flex;
+  flex-direction: column;
+  width: 23.5%;
+  left: 0;
+  top: 40px;
+  position: fixed;
+  justify-content: flex-start;
+  border: 1px solid #393638;
+  z-index: 2;
+  background: whitesmoke;
+  margin-top: 2px;
+}
+.MenuSearch{
+  border: 1px solid black;
+  display: none;
+}
+.MenuItem{
+  border: 1px solid black;
 }
 .Bag{
   display:flex;
@@ -100,7 +121,7 @@ code {
     border: 1px solid #393638;
     z-index: 2;
     background: whitesmoke;
-    margin-top: 1px;
+    margin-top: 2px;
 }
 .CheckoutButton{
     background-color: #393638;
@@ -382,6 +403,10 @@ margin: 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  .MenuSearch{
+    border: 1px solid black;
+    display: block;
   }
 }
 /* Most Pad Devices */

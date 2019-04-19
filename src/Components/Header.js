@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import CartContainer from '../containers/CartContainer';
 import SearchIcon from '../assets/search.png'
+import Menu from "../Components/Menu";
 
 
 export default class Header extends Component {
@@ -8,10 +9,12 @@ export default class Header extends Component {
     super(props)
     this.state = {
       showCart: false,
-      makeInput: false
+      makeInput: false,
+      showMenu: false
     }
     this.toggleCart = this.toggleCart.bind(this);
     this.toggleSearch = this.toggleSearch.bind(this);
+    this.toggleMenu = this.toggleMenu.bind(this);
   }
   toggleCart(e){
     e.preventDefault();
@@ -37,6 +40,18 @@ export default class Header extends Component {
       })
     }
   }
+  toggleMenu(e){
+    e.preventDefault();
+    if(!this.state.showMenu){
+      this.setState({
+        showMenu: true
+      })
+    } else {
+      this.setState({
+        showMenu: false
+      })
+    }
+  }
   render() {
     return (
         <div className="Header">
@@ -56,9 +71,16 @@ export default class Header extends Component {
             : null
           } */}
         </div>
-        <div className="Menu">
+        <div className="Menu"
+        onClick={(e) => this.toggleMenu(e)}
+        >
             Menu
         </div>
+        {
+          this.state.showMenu
+          ? <Menu closeMenu={this.toggleMenu}/>
+          : null
+        }
         <div
           className="Bag"
           onClick={(e) => this.toggleCart(e)}
